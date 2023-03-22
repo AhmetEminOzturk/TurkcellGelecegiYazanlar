@@ -1,0 +1,21 @@
+Paradigma, bazı problemleri çözmek veya bazı görevleri yapmak için
+bir yöntem olarak adlandırılabilir. 
+Programlama paradigması, bir programlama dilinin nasıl uygulandığını açıklayan 
+mantıksal bir yaklaşımdır.Bu yaklaşımlar doğrultusunda bazı araç ve tekniklerin 
+kullanılması ile problem çözme yoluna gidilir.
+
+Object Oriented Programming Paradigm (Nesne Yönelimli Programlama Paradigması)
+Her bilgisayar programının etkileşim içerisinde bulunduğu birimler ve nesneler kümesinden 
+oluştuğunu varsayan bir paradigmadır. Donanım ve yazılımın karışmasını önlemek, 
+daha iyi yazılım kalitesi sunabilmek ve sürdürebilmek adına düşünülen bir paradigma türüdür.
+Veri alanlarını yalnızca önceden tanımlanmış yöntemlerle işlenen nesneler olarak değerlendirir.
+
+Bu paradigma türünde en küçük ve temel varlık nesnedir ve her türlü hesaplama yalnızca 
+nesneler üzerinde gerçekleştirilir. Prosedürden çok verilere daha fazla vurgu yapılmaktadır. 
+Bugün senaryoda olan hemen hemen her türlü gerçek hayat problemini çözebilir. 
+
+Nesne, içinde veri ve bu veriler üzerinde işlem yapacak olan metotları (fonksiyon) bulunduran 
+yazılım bileşenidir. Nesne bu tanıma uygun olarak, kendi işlevselliğini de içinde taşır. 
+Nesneler her uygulamada tekrar tekrar kullanılabilir. Veri ve metotlar, birlikte nesnenin 
+üyeleri (members) adını alır. Bir nesne yapısı, bir sınıf (class) içinde tanımlanır. 
+Sınıf içinde nesneyi oluşturan üye değişkenler ve metotlar açıkça tanımlanır.
