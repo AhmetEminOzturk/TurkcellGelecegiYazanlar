@@ -1,0 +1,8 @@
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\bin\Debug\OCP_Example.exe.config
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\bin\Debug\OCP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\bin\Debug\OCP_Example.pdb
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\obj\Debug\OCP_Example.csproj.AssemblyReference.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\obj\Debug\OCP_Example.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\obj\Debug\OCP_Example.csproj.CoreCompileInputs.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\obj\Debug\OCP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Open Closed Principle\OCP_Example\OCP_Example\obj\Debug\OCP_Example.pdb

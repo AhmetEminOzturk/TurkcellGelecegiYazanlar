@@ -1,0 +1,8 @@
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\bin\Debug\DIP_Example.exe.config
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\bin\Debug\DIP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\bin\Debug\DIP_Example.pdb
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\obj\Debug\DIP_Example.csproj.AssemblyReference.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\obj\Debug\DIP_Example.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\obj\Debug\DIP_Example.csproj.CoreCompileInputs.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\obj\Debug\DIP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\DIP_Example\DIP_Example\obj\Debug\DIP_Example.pdb

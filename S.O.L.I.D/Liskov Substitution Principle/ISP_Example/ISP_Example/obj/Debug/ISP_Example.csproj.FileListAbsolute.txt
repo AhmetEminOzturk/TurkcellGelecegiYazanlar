@@ -1,0 +1,8 @@
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\bin\Debug\ISP_Example.exe.config
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\bin\Debug\ISP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\bin\Debug\ISP_Example.pdb
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\obj\Debug\ISP_Example.csproj.AssemblyReference.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\obj\Debug\ISP_Example.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\obj\Debug\ISP_Example.csproj.CoreCompileInputs.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\obj\Debug\ISP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Liskov Substitution Principle\ISP_Example\ISP_Example\obj\Debug\ISP_Example.pdb
