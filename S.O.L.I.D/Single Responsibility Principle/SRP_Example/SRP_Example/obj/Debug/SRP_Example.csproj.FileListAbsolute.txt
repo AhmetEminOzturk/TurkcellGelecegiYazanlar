@@ -1,0 +1,8 @@
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\obj\Debug\SRP_Example.csproj.AssemblyReference.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\obj\Debug\SRP_Example.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\obj\Debug\SRP_Example.csproj.CoreCompileInputs.cache
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\bin\Debug\SRP_Example.exe.config
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\bin\Debug\SRP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\bin\Debug\SRP_Example.pdb
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\obj\Debug\SRP_Example.exe
+D:\GitHub\TurkcellGelecegiYazanlar\S.O.L.I.D\Single Responsibility Principle\SRP_Example\SRP_Example\obj\Debug\SRP_Example.pdb
