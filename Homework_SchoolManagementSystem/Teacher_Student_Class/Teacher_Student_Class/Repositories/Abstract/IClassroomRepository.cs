@@ -9,6 +9,5 @@ namespace Teacher_Student_Class.Repositories.Abstract
 {
     public interface IClassroomRepository:IGenericRepository<Classroom>
     {
-
     }
 }

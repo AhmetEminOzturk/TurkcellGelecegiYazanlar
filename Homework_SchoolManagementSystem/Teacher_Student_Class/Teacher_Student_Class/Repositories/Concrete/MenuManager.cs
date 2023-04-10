@@ -26,11 +26,13 @@ namespace Teacher_Student_Class.Repositories.Concrete
                 Console.WriteLine("5. Send Homework");
                 Console.WriteLine("0. Back to Main Menu");
 
-                int choice = int.Parse(Console.ReadLine());
-
+                int choice;
+                while (!int.TryParse(Console.ReadLine(), out choice))
+                {
+                    Console.WriteLine("Invalid input. Please enter an integer value.");
+                }
                 switch (choice)
                 {
-
                     case 1:
                         Console.Write("Enter student ID: ");
                         int studentID;
@@ -167,8 +169,11 @@ namespace Teacher_Student_Class.Repositories.Concrete
                 Console.WriteLine("4. Get Teacher Informations By Id");
                 Console.WriteLine("0. Back to Main Menu");
 
-                int choice = int.Parse(Console.ReadLine());
-
+                int choice;
+                while (!int.TryParse(Console.ReadLine(), out choice))
+                {
+                    Console.WriteLine("Invalid input. Please enter an integer value.");
+                }
                 switch (choice)
                 {
                     case 1:
@@ -260,8 +265,11 @@ namespace Teacher_Student_Class.Repositories.Concrete
                 Console.WriteLine("2. Delete a classroom");
                 Console.WriteLine("3. List classrooms");
                 Console.WriteLine("0. Back to Main Menu");
-                int choice = int.Parse(Console.ReadLine());
-
+                int choice;
+                while (!int.TryParse(Console.ReadLine(), out choice))
+                {
+                    Console.WriteLine("Invalid input. Please enter an integer value.");
+                }
                 switch (choice)
                 {
                     case 1:

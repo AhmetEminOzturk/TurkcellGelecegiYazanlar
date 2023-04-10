@@ -9,7 +9,6 @@ namespace Teacher_Student_Class.Entities.Abstract
 {
     public interface IStudent : IPerson
     {
-       
         Classroom StudentClassroom { get; set; }
     }
 }

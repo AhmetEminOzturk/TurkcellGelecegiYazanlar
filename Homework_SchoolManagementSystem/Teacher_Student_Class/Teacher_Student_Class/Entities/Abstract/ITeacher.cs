@@ -8,8 +8,7 @@ using Teacher_Student_Class.Entities.Concrete;
 namespace Teacher_Student_Class.Entities.Abstract
 {
     public interface ITeacher : IPerson
-    {
-        
+    {     
         Classroom TeacherClassroom { get; set; }
     }
 }

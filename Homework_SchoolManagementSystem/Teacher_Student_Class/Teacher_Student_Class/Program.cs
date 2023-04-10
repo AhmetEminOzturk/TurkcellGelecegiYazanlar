@@ -29,8 +29,11 @@ namespace Teacher_Student_Class
                 Console.WriteLine("3. Classroom Operations");
                 Console.WriteLine("0. Exit");
 
-                int choice = int.Parse(Console.ReadLine());
-
+                int choice;
+                while (!int.TryParse(Console.ReadLine(), out choice))
+                {
+                    Console.WriteLine("Invalid input. Please enter an integer value.");
+                }
                 switch (choice)
                 {
                     case 1:

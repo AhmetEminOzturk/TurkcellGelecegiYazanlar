@@ -30,7 +30,8 @@ namespace Teacher_Student_Class.Repositories.Concrete
 
         public Homework GetById(int id)
         {
-            throw new NotImplementedException();
+            var value = _homeworkList.FirstOrDefault(x => x.ID == id);
+            return value;
         }
 
         public void Insert(Homework homework)
@@ -40,7 +41,6 @@ namespace Teacher_Student_Class.Repositories.Concrete
                 throw new ArgumentNullException(nameof(homework));
             }
 
-            // Check if student ID already exists
             if (_homeworkList.Any(c => c.ID == homework.ID))
             {
                 Console.WriteLine("Homework ID already exists.  \n Sending failed!");

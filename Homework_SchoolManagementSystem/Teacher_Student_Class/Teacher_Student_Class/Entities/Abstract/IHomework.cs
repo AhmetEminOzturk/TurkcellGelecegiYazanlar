@@ -7,11 +7,10 @@ using Teacher_Student_Class.Entities.Concrete;
 
 namespace Teacher_Student_Class.Entities.Abstract
 {
-    public interface IHomework:IEntity
+    public interface IHomework : IEntity
     {
-         string Content { get; set; }
-         string FilePath { get; set; }
-
+        string Content { get; set; }
+        string FilePath { get; set; }
         Teacher Teacher { get; set; }
         Student Student { get; set; }
     }
