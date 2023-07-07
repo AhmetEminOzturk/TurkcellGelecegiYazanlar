@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookStore.Entities
-build_property.ProjectDir = C:\BookStore\src\Domains\BookStore.Entities\
+build_property.ProjectDir = C:\GitHub\TurkcellGelecegiYazanlar\ASP.NET CORE MVC HomeWork\BookStore\src\Domains\BookStore.Entities\

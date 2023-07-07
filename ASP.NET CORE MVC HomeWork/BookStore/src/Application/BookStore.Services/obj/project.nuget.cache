@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jyMiEJFEK3EjMCem9yNKP1ju/N06BvkspoIcj6o6V98E6UC8cbC95BiRqqijLIK49Hw4fCLhQUGIOzelh2F08w==",
+  "dgSpecHash": "uEzRl3ubCwszduyF+0TbeCC2gRU9joFpNGpGLfygsnC/GsW047p0IQjkcGDuvRu8NlcbxSeA8T80kt++M385ng==",
   "success": true,
-  "projectFilePath": "C:\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj",
+  "projectFilePath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eAo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

@@ -1,0 +1,17 @@
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\bin\Debug\net7.0\SurveyApp.Infrastructure.deps.json
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\bin\Debug\net7.0\SurveyApp.Infrastructure.runtimeconfig.json
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\bin\Debug\net7.0\SurveyApp.Infrastructure.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\bin\Debug\net7.0\SurveyApp.Infrastructure.pdb
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\bin\Debug\net7.0\SurveyApp.Entities.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\bin\Debug\net7.0\SurveyApp.Entities.pdb
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.csproj.AssemblyReference.cache
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.AssemblyInfoInputs.cache
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.AssemblyInfo.cs
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.csproj.CopyComplete
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\refint\SurveyApp.Infrastructure.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.pdb
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\SurveyApp.Infrastructure.genruntimeconfig.cache
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Infrastructure\SurveyApp.Infrastructure\obj\Debug\net7.0\ref\SurveyApp.Infrastructure.dll

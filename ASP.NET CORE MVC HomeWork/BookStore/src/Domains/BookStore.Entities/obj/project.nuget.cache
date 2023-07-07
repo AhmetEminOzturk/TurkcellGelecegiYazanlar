@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vAIz8Lj+chNgc6vNQSOaArKSZ6gcHc/AoLojkK6VNZ+Xkm3HzKjltmJ6kzmUCpXQSEkyd+tzbQBCU+EyJTx33Q==",
+  "dgSpecHash": "Fv+sViGtOYK+g3yYQz8sKVsMmvb8ccZM2zm1w36cUMANmzMFNw79yBFO/7lIS9AH2fWy1jSlarMlK8DVmwb0cw==",
   "success": true,
-  "projectFilePath": "C:\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj",
+  "projectFilePath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

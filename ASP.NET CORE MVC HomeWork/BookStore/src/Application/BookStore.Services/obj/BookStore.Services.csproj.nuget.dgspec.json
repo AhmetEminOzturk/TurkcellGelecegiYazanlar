@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj": {}
+    "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj": {}
   },
   "projects": {
-    "C:\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj": {
+    "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj",
+        "projectUniqueName": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj",
         "projectName": "BookStore.DataTransferObjects",
-        "projectPath": "C:\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj",
+        "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj",
         "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
-        "outputPath": "C:\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\obj\\",
+        "outputPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,18 +59,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj": {
+    "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj",
+        "projectUniqueName": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj",
         "projectName": "BookStore.Services",
-        "projectPath": "C:\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj",
+        "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.Services\\BookStore.Services.csproj",
         "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
-        "outputPath": "C:\\BookStore\\src\\Application\\BookStore.Services\\obj\\",
+        "outputPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,11 +91,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj": {
-                "projectPath": "C:\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj"
+              "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj": {
+                "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj"
               },
-              "C:\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
-                "projectPath": "C:\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj"
+              "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
+                "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj"
               }
             }
           }
@@ -131,18 +131,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj": {
+    "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj",
+        "projectUniqueName": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj",
         "projectName": "BookStore.Entities",
-        "projectPath": "C:\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj",
+        "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj",
         "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
-        "outputPath": "C:\\BookStore\\src\\Domains\\BookStore.Entities\\obj\\",
+        "outputPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Domains\\BookStore.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,18 +190,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
+    "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj",
+        "projectUniqueName": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj",
         "projectName": "BookStore.Infrastructure",
-        "projectPath": "C:\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj",
+        "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
-        "outputPath": "C:\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\obj\\",
+        "outputPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Infrastructure\\BookStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -222,8 +222,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj": {
-                "projectPath": "C:\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj"
+              "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj": {
+                "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Domains\\BookStore.Entities\\BookStore.Entities.csproj"
               }
             }
           }
@@ -269,7 +269,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

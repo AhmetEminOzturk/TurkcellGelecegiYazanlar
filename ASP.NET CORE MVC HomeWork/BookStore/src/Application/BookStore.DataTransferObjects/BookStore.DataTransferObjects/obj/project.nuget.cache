@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Aax71NarJEQ9ddCpYu8pKVePIMFDKjoyHl7l+eAHWIk2jpr5BRksYJ0dEXmOelYxWTgzPW+jhRTD4+5ogjiNHQ==",
+  "dgSpecHash": "ldHZBXw1cIYg7bTPCQLjXbscWASTQ0S6q1e3q7HWZjwqoPuh9ybiIqJB3TGcJhDZP/ufsxL94t2xmqUeG5PKQQ==",
   "success": true,
-  "projectFilePath": "C:\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj",
+  "projectFilePath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\ASP.NET CORE MVC HomeWork\\BookStore\\src\\Application\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects\\BookStore.DataTransferObjects.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

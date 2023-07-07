@@ -1,0 +1,12 @@
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\bin\Debug\net7.0\SurveyApp.Entities.deps.json
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\bin\Debug\net7.0\SurveyApp.Entities.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\bin\Debug\net7.0\SurveyApp.Entities.pdb
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.csproj.AssemblyReference.cache
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.AssemblyInfoInputs.cache
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.AssemblyInfo.cs
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.csproj.CoreCompileInputs.cache
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\refint\SurveyApp.Entities.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.pdb
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\ref\SurveyApp.Entities.dll
