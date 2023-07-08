@@ -46,7 +46,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public Vote? Get(int id)
         {
-            return _context.Votes.SingleOrDefault(x => x.VoteId == id);
+            return _context.Votes.SingleOrDefault(x => x.Id == id);
         }
 
         public IList<Vote?> GetAll()
@@ -61,7 +61,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public async Task<Vote?> GetAsync(int id)
         {
-            return await _context.Votes.AsNoTracking().FirstOrDefaultAsync(p => p.VoteId == id);
+            return await _context.Votes.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public void Update(Vote entity)

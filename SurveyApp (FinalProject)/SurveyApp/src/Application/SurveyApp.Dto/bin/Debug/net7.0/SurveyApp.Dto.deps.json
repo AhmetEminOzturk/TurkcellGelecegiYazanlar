@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "SurveyApp.Dto/1.0.0": {
+        "dependencies": {
+          "SurveyApp.Entities": "1.0.0"
+        },
         "runtime": {
           "SurveyApp.Dto.dll": {}
+        }
+      },
+      "SurveyApp.Entities/1.0.0": {
+        "runtime": {
+          "SurveyApp.Entities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SurveyApp.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SurveyApp.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

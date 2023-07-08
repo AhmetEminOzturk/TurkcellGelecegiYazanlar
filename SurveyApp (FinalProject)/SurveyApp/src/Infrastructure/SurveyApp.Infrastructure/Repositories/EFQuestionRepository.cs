@@ -46,7 +46,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public Question? Get(int id)
         {
-            return _context.Questions.SingleOrDefault(x => x.QuestionId == id);
+            return _context.Questions.SingleOrDefault(x => x.Id == id);
         }
 
         public IList<Question?> GetAll()
@@ -61,7 +61,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public async Task<Question?> GetAsync(int id)
         {
-            return await _context.Questions.AsNoTracking().FirstOrDefaultAsync(p => p.QuestionId == id);
+            return await _context.Questions.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public void Update(Question entity)

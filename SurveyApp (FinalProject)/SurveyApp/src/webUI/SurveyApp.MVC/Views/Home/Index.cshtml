@@ -1,8 +1,33 @@
-﻿@{
+﻿@model IEnumerable<PollDisplayResponse>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@foreach (var pollModel in Model)
+{
+    <div class="container">
+        <h2>Poll Content: @pollModel.Content</h2>
+        <br />
+        <br />
+        @foreach (var questionModel in pollModel.Questions)
+        {
+            <p>Question ID: @questionModel.Id</p>
+            <p>Question Content: @questionModel.Content</p>
+            <p>Question Poll Id: @questionModel.PollId</p>
+
+            <br />
+            <br />
+            
+            <p>Options:</p>
+            @foreach (var optionModel in questionModel.Options)
+            {
+                <p>Option ID: @optionModel.Id</p>
+                <p>Option Content: @optionModel.Content</p>
+                <p>Option Poll Id: @optionModel.PollId</p>
+
+                <br />
+                <br />
+            }
+        }
+    </div>
+}

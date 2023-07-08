@@ -10,3 +10,5 @@ C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\refint\SurveyApp.Entities.dll
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.pdb
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\ref\SurveyApp.Entities.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\bin\Debug\net7.0\SurveyApp.Entities.runtimeconfig.json
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Domain\SurveyApp.Entities\obj\Debug\net7.0\SurveyApp.Entities.genruntimeconfig.cache

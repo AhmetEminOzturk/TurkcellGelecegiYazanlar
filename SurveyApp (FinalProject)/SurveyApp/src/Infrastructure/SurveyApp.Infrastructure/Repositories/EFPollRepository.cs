@@ -46,7 +46,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public Poll? Get(int id)
         {
-            return _context.Polls.SingleOrDefault(x => x.PollId == id);
+            return _context.Polls.SingleOrDefault(x => x.Id == id);
         }
 
         public IList<Poll?> GetAll()
@@ -61,7 +61,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public async Task<Poll?> GetAsync(int id)
         {
-            return await _context.Polls.AsNoTracking().FirstOrDefaultAsync(p => p.PollId == id);
+            return await _context.Polls.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public void Update(Poll entity)

@@ -10,3 +10,6 @@ C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Applic
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Application\SurveyApp.Dto\obj\Debug\net7.0\refint\SurveyApp.Dto.dll
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Application\SurveyApp.Dto\obj\Debug\net7.0\SurveyApp.Dto.pdb
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Application\SurveyApp.Dto\obj\Debug\net7.0\ref\SurveyApp.Dto.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Application\SurveyApp.Dto\bin\Debug\net7.0\SurveyApp.Entities.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Application\SurveyApp.Dto\bin\Debug\net7.0\SurveyApp.Entities.pdb
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\Application\SurveyApp.Dto\obj\Debug\net7.0\SurveyApp.Dto.csproj.CopyComplete

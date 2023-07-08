@@ -9,8 +9,9 @@ namespace SurveyApp.Dto.Requests
 {
     public class UpdatePollRequest
     {
-        public int PollId { get; set; }
-        [Required]
+        public int Id { get; set; }
         public string Content { get; set; }
+        public int UserId { get; set; }
+        public string? Token { get; set; }
     }
 }

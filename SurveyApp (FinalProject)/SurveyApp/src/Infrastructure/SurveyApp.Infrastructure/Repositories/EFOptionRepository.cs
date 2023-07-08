@@ -46,7 +46,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public Option? Get(int id)
         {
-            return _context.Options.SingleOrDefault(x => x.OptionId == id);
+            return _context.Options.SingleOrDefault(x => x.Id == id);
         }
 
         public IList<Option?> GetAll()
@@ -61,7 +61,7 @@ namespace SurveyApp.Infrastructure.Repositories
 
         public async Task<Option?> GetAsync(int id)
         {
-            return await _context.Options.AsNoTracking().FirstOrDefaultAsync(p => p.OptionId == id);
+            return await _context.Options.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public void Update(Option entity)

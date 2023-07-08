@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "SurveyApp.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SurveyApp.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SurveyApp.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SurveyApp.Entities/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/SurveyApp.Entities/SurveyApp.Entities.csproj",
+      "msbuildProject": "../../Domain/SurveyApp.Entities/SurveyApp.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "SurveyApp.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\eAo\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GitHub\\TurkcellGelecegiYazanlar\\SurveyApp (FinalProject)\\SurveyApp\\src\\Domain\\SurveyApp.Entities\\SurveyApp.Entities.csproj": {
+              "projectPath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\SurveyApp (FinalProject)\\SurveyApp\\src\\Domain\\SurveyApp.Entities\\SurveyApp.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

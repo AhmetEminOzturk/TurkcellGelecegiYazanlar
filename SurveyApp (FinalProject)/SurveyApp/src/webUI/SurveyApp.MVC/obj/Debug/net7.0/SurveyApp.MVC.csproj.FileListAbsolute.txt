@@ -78,3 +78,8 @@ C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\obj\Debug\net7.0\SurveyApp.MVC.pdb
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\obj\Debug\net7.0\SurveyApp.MVC.genruntimeconfig.cache
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\obj\Debug\net7.0\ref\SurveyApp.MVC.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\bin\Debug\net7.0\Humanizer.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webUI\SurveyApp.MVC\bin\Debug\net7.0\System.CodeDom.dll

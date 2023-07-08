@@ -36,7 +36,8 @@ namespace SurveyApp.Services
         public async Task<IEnumerable<PollDisplayResponse>> GetAllPollsAsync()
         {
             var polls = await _pollRepository.GetAllAsync();
-            return _mapper.Map<IEnumerable<PollDisplayResponse>>(polls);
+            var response = _mapper.Map<IEnumerable<PollDisplayResponse>>(polls);
+            return response;
         }
 
         public async Task<PollDisplayResponse> GetPollAsync(int id)

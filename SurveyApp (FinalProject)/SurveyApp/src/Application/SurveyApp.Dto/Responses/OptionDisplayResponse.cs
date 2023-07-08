@@ -8,9 +8,9 @@ namespace SurveyApp.Dto.Responses
 {
     public class OptionDisplayResponse
     {
-        public int OptionId { get; set; }
-        public string Content { get; set; }
-        public int? QuestionId { get; set; }
+        public int Id { get; set; }
+        public string Content { get; set; }      
+        public int? QuestionId { get; set; }    
         public int? PollId { get; set; }
     }
 }

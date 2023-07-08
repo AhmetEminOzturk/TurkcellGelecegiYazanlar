@@ -620,6 +620,9 @@
         }
       },
       "SurveyApp.Dto/1.0.0": {
+        "dependencies": {
+          "SurveyApp.Entities": "1.0.0"
+        },
         "runtime": {
           "SurveyApp.Dto.dll": {}
         }
