@@ -9,5 +9,6 @@ namespace SurveyApp.Infrastructure.Repositories
 {
     public interface IPollRepository : IRepository<Poll>
     {
+        Task<IList<Poll?>> GetAllWithQuestionsAndOptionsAsync();
     }
 }

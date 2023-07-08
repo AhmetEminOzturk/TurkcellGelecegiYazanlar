@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using SurveyApp.Dto.Requests;
+using SurveyApp.Dto.Responses;
 using SurveyApp.Entities;
 using SurveyApp.Infrastructure.Repositories;
 using System;
@@ -27,9 +28,15 @@ namespace SurveyApp.Services
             await _userRepository.CreateAsync(user);
         }
 
-        public async Task DeleteOptionAsync(int id)
+        public async Task DeleteUserAsync(int id)
         {
             await _userRepository.DeleteAsync(id);
+        }
+
+        public async Task<IEnumerable<UserDisplayResponse>> GetAllUsersAsync()
+        {
+            var users = await _userRepository.GetAllAsync();
+            return _mapper.Map<IEnumerable<UserDisplayResponse>>(users);
         }
 
         public async Task UpdateUserAsync(UpdateUserRequest updateUserRequest)

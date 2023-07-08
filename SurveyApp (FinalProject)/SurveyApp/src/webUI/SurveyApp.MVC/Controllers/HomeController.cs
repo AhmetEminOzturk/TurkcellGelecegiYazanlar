@@ -18,7 +18,7 @@ namespace SurveyApp.MVC.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var polls = await _pollService.GetAllPollsAsync();
+            var polls = await _pollService.GetAllPollsWithQestionsAndOptionsAsync();
             return View(polls);
         }
 

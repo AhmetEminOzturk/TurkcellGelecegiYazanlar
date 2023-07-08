@@ -11,8 +11,9 @@ namespace SurveyApp.Services
 {
     public interface IPollService
     {
-        Task<PollDisplayResponse> GetPollAsync(int id);
+        Task<PollDisplayResponse> GetPollByIdAsync(int id);
         Task<IEnumerable<PollDisplayResponse>> GetAllPollsAsync();
+        Task<IEnumerable<PollDisplayResponse>> GetAllPollsWithQestionsAndOptionsAsync();
         Task CreatePollAsync(CreateNewPollRequest createNewPollRequest);
         Task UpdatePollAsync(UpdatePollRequest updatePollRequest);
         Task DeletePollAsync(int id);

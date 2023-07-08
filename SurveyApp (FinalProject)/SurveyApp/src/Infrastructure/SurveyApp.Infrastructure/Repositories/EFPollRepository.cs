@@ -59,6 +59,11 @@ namespace SurveyApp.Infrastructure.Repositories
             return await _context.Polls.AsNoTracking().ToListAsync();
         }
 
+        public async Task<IList<Poll?>> GetAllWithQuestionsAndOptionsAsync()
+        {
+            return await _context.Polls.AsNoTracking().Include(q => q.Questions).ThenInclude(o => o.Options).ToListAsync();
+        }
+
         public async Task<Poll?> GetAsync(int id)
         {
             return await _context.Polls.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);

@@ -26,6 +26,7 @@ namespace SurveyApp.Services
         {
             var poll = _mapper.Map<Poll>(createNewPollRequest);
             await _pollRepository.CreateAsync(poll);
+              
         }
 
         public async Task DeletePollAsync(int id)
@@ -40,7 +41,14 @@ namespace SurveyApp.Services
             return response;
         }
 
-        public async Task<PollDisplayResponse> GetPollAsync(int id)
+        public async Task<IEnumerable<PollDisplayResponse>> GetAllPollsWithQestionsAndOptionsAsync()
+        {
+            var polls = await _pollRepository.GetAllWithQuestionsAndOptionsAsync();
+            var response = _mapper.Map<IEnumerable<PollDisplayResponse>>(polls);
+            return response;
+        }
+
+        public async Task<PollDisplayResponse> GetPollByIdAsync(int id)
         {
             var poll = await _pollRepository.GetAsync(id);
             return _mapper.Map<PollDisplayResponse>(poll);

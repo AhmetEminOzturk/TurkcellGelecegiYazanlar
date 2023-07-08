@@ -2,6 +2,7 @@
 using SurveyApp.Infrastructure.Data;
 using SurveyApp.Infrastructure.Repositories;
 using SurveyApp.Services;
+using SurveyApp.Services.Mappings;
 
 namespace SurveyApp.MVC.Extensions
 {
@@ -18,6 +19,7 @@ namespace SurveyApp.MVC.Extensions
             services.AddScoped<IPollService, PollService>();
             services.AddScoped<IPollRepository, EFPollRepository>();
 
+            services.AddAutoMapper(typeof(MapProfile));
             //IoC
             services.AddDbContext<SurveyDbContext>(opt => opt.UseSqlServer(connectionString));
 

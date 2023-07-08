@@ -8,8 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddAutoMapper(typeof(MapProfile));
-
 var connectionString = builder.Configuration.GetConnectionString("db");
 builder.Services.AddInjections(connectionString);
 

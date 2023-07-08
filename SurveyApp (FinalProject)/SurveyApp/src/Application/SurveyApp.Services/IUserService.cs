@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 namespace SurveyApp.Services
 {
     public interface IUserService
-    {      
+    {
+        Task<IEnumerable<UserDisplayResponse>> GetAllUsersAsync();
         Task CreateUserAsync(CreateNewUserRequest createNewUserRequest);
         Task UpdateUserAsync(UpdateUserRequest updateUserRequest);
-        Task DeleteOptionAsync(int id);
+        Task DeleteUserAsync(int id);
     }
 }

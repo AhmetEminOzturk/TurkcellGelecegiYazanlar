@@ -17,6 +17,7 @@ namespace SurveyApp.Services.Mappings
             CreateMap<Poll, PollDisplayResponse>();
             CreateMap<Question, QuestionDisplayResponse>();
             CreateMap<Option, OptionDisplayResponse>();
+            CreateMap<User, UserDisplayResponse>();
 
             CreateMap<CreateNewPollRequest, Poll>().ReverseMap();
             CreateMap<CreateNewOptionRequest, Option>().ReverseMap();

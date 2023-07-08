@@ -1,4 +1,5 @@
 using SurveyApp.API.IoCExtensions;
+using SurveyApp.Services.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,18 +10,19 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 var connectionString = builder.Configuration.GetConnectionString("db");
 builder.Services.AddInjections(connectionString);
 
-builder.Services.AddCors(opt =>
-{
-    opt.AddPolicy("allow", builder =>
-    {
-        builder.AllowAnyHeader();
-        builder.AllowAnyMethod();
-        builder.AllowAnyOrigin();
-    });
-});
+//builder.Services.AddCors(opt =>
+//{
+//    opt.AddPolicy("allow", builder =>
+//    {
+//        builder.AllowAnyHeader();
+//        builder.AllowAnyMethod();
+//        builder.AllowAnyOrigin();
+//    });
+//});
 
 var app = builder.Build();
 

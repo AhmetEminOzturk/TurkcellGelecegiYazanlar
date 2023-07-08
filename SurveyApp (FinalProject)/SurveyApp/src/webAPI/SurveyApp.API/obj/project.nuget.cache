@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zBSkiRSBGHSeet72+0Le7ZQdyxxTpN/qal0VkexbRVEFcR9wh9E8RYnfkpCIyC0rQK8QEFihYw0ko1VG2fB2HQ==",
+  "dgSpecHash": "Sbykw6wyMlmWjZx8nTVIHKjx1usB5gh1xZu16Q38wtVh9RyxUNx0qzmXLJMnY5+W5d1vvT9/EI+YUZ4DwetiOA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\TurkcellGelecegiYazanlar\\SurveyApp (FinalProject)\\SurveyApp\\src\\webAPI\\SurveyApp.API\\SurveyApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eAo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
