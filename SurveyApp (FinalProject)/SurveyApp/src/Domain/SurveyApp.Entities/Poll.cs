@@ -17,12 +17,5 @@ namespace SurveyApp.Entities
         public string? Token { get; set; }
         public ICollection<Question?> Questions { get; set; }
 
-        //public List<Option>? Options { get; set; }
-        //public List<Vote>? Votes { get; set; }
-
-        //public int PollId { get; set; }
-        //[Required]
-        //public string Content { get; set; }
-        //public ICollection<Question>? Questions { get; set; }
     }
 }

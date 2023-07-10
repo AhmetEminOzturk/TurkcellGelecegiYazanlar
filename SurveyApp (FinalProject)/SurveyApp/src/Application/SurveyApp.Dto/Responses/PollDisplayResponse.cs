@@ -15,6 +15,8 @@ namespace SurveyApp.Dto.Responses
         public int UserId { get; set; }
         public string? Token { get; set; }
         public ICollection<Question?> Questions { get; set; } = new List<Question>();
+        public QuestionType QuestionTypes { get; set; }
+        public VoteType VoteTypes { get; set; }
 
     }
 }

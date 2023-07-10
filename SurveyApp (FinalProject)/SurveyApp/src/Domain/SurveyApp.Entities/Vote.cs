@@ -20,8 +20,8 @@ namespace SurveyApp.Entities
         public int? QuestionId { get; set; }
         public Question? Question { get; set; }
 
-        //public int VoteId { get; set; }
-        //public int? PollId { get; set; }
-        //public Poll? Poll { get; set; }
+        public string Content { get; set; }
+        public bool IsSelected { get; set; }
+
     }
 }   
