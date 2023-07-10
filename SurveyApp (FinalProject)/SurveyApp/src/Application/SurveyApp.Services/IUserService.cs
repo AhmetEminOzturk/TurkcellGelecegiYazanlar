@@ -1,5 +1,6 @@
 ﻿using SurveyApp.Dto.Requests;
 using SurveyApp.Dto.Responses;
+using SurveyApp.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace SurveyApp.Services
         Task CreateUserAsync(CreateNewUserRequest createNewUserRequest);
         Task UpdateUserAsync(UpdateUserRequest updateUserRequest);
         Task DeleteUserAsync(int id);
+        Task<User> ValidateUserAsync(string username, string password);
     }
 }

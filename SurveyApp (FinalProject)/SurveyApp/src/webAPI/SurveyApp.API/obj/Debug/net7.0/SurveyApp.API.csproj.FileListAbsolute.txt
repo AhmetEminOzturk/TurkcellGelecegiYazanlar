@@ -79,3 +79,4 @@ C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webAPI
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webAPI\SurveyApp.API\obj\Debug\net7.0\SurveyApp.API.genruntimeconfig.cache
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webAPI\SurveyApp.API\obj\Debug\net7.0\ref\SurveyApp.API.dll
 C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webAPI\SurveyApp.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\GitHub\TurkcellGelecegiYazanlar\SurveyApp (FinalProject)\SurveyApp\src\webAPI\SurveyApp.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

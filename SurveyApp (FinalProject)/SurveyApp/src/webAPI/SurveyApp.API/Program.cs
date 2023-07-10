@@ -1,5 +1,8 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using SurveyApp.API.IoCExtensions;
 using SurveyApp.Services.Mappings;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,15 +17,28 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("db");
 builder.Services.AddInjections(connectionString);
 
-//builder.Services.AddCors(opt =>
-//{
-//    opt.AddPolicy("allow", builder =>
-//    {
-//        builder.AllowAnyHeader();
-//        builder.AllowAnyMethod();
-//        builder.AllowAnyOrigin();
-//    });
-//});
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(opt =>
+                {
+                    opt.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidIssuer = "server",
+                        ValidAudience = "client",
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SecretWordForSurveyApp"))
+                    };
+                });
+
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("allow", builder =>
+    {
+        builder.AllowAnyHeader();
+        builder.AllowAnyMethod();
+        builder.AllowAnyOrigin();
+    });
+});
 
 var app = builder.Build();
 
@@ -35,6 +51,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("allow");
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

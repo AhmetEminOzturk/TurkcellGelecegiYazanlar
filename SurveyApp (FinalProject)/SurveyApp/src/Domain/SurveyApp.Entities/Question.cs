@@ -14,7 +14,7 @@ namespace SurveyApp.Entities
         public Poll Poll { get; set; }
         public int PollId { get; set; }
         public ICollection<Option?> Options { get; set; }
-        public QuestionType QuestionTypes { get; set; }
-        public VoteType VoteTypes { get; set; }
+        public QuestionType? QuestionTypes { get; set; }
+        public VoteType? VoteTypes { get; set; }
     }
 }

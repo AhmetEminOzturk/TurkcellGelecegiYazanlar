@@ -18,6 +18,8 @@ namespace SurveyApp.MVC.Extensions
             services.AddScoped<IOptionRepository, EFOptionRepository>();
             services.AddScoped<IPollService, PollService>();
             services.AddScoped<IPollRepository, EFPollRepository>();
+            services.AddScoped<IVoteService, VoteService>();
+            services.AddScoped<IVoteRepository, EFVoteRepository>();
 
             services.AddAutoMapper(typeof(MapProfile));
             //IoC

@@ -44,5 +44,11 @@ namespace SurveyApp.Services
             var user = _mapper.Map<User>(updateUserRequest);
             await _userRepository.UpdateAsync(user);
         }
+
+        public async Task<User> ValidateUserAsync(string username, string password)
+        {
+            var users = await _userRepository.GetAllAsync();
+            return users.SingleOrDefault(u => u.UserName == username && u.Password == password);
+        }
     }
 }

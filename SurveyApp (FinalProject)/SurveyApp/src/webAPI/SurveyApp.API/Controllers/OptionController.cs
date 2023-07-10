@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SurveyApp.Dto.Requests;
 using SurveyApp.Services;
@@ -7,6 +8,7 @@ namespace SurveyApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class OptionController : ControllerBase
     {
         private readonly IOptionService _optionService;
