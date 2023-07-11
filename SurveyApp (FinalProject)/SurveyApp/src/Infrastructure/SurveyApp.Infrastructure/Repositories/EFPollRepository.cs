@@ -30,6 +30,13 @@ namespace SurveyApp.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public async Task<int> CreatePollReturnIdAsync(Poll entity)
+        {
+            await _context.Polls.AddAsync(entity);
+            await _context.SaveChangesAsync();
+            return entity.Id;
+        }
+
         public void Delete(int id)
         {
             var deleting = _context.Polls.Find(id);
@@ -67,6 +74,11 @@ namespace SurveyApp.Infrastructure.Repositories
         public async Task<Poll?> GetAsync(int id)
         {
             return await _context.Polls.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+        }
+
+        public async Task<Poll?> GetPollByIdWithQuestionsAndOptionsAsync(int id)
+        {
+            return await _context.Polls.AsNoTracking().Include(q => q.Questions).ThenInclude(o => o.Options).SingleOrDefaultAsync(x => x.Id == id);
         }
 
         public void Update(Poll entity)

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SurveyApp.Dto.Requests;
+using SurveyApp.Dto.Responses;
 using SurveyApp.Entities;
 using SurveyApp.MVC.Models;
 using SurveyApp.Services;
@@ -13,18 +14,11 @@ namespace SurveyApp.MVC.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IPollService _pollService;
-        private readonly IVoteService _voteService;
-        private readonly IQuestionService _questionService;
-        private readonly IOptionService _optionService;
-
-
-        public HomeController(ILogger<HomeController> logger, IPollService pollService, IVoteService voteService, IQuestionService questionService, IOptionService optionService)
+      
+        public HomeController(ILogger<HomeController> logger, IPollService pollService)
         {
             _logger = logger;
-            _pollService = pollService;
-            _voteService = voteService;
-            _questionService = questionService;
-            _optionService = optionService;
+            _pollService = pollService;                
         }
 
         public async Task<IActionResult> Index()
@@ -33,6 +27,17 @@ namespace SurveyApp.MVC.Controllers
             return View(polls);
         }
 
+        public async Task<IActionResult> IndexById(int id)
+        {
+            var poll = await _pollService.GetPollByIdWithQuestionsAndOptionsAsync(id);
+
+            if (poll == null)
+            {
+                return NotFound(); 
+            }
+
+            return View(new List<PollDisplayResponse> { poll });
+        }
 
         public IActionResult Privacy()
         {

@@ -39,8 +39,12 @@ namespace SurveyApp.API.Controllers
         [HttpPost]
         public async Task<IActionResult> CreatePoll(CreateNewPollRequest createNewPollRequest)
         {
-            await _pollService.CreatePollAsync(createNewPollRequest);                     
-            return Ok();
+            //await _pollService.CreatePollAsync(createNewPollRequest);                     
+            //return Ok();
+
+            int pollId = await _pollService.CreatePollReturnIdAsync(createNewPollRequest);
+            string url = $"https://localhost:7028/Poll/GetPollById/{pollId}";
+            return Ok(url);
         }
 
         [HttpPut]
