@@ -22,6 +22,21 @@ namespace SurveyApp.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("PollVote", b =>
+                {
+                    b.Property<int>("PollsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("VotesId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PollsId", "VotesId");
+
+                    b.HasIndex("VotesId");
+
+                    b.ToTable("PollVote");
+                });
+
             modelBuilder.Entity("SurveyApp.Entities.Option", b =>
                 {
                     b.Property<int>("Id")
@@ -40,11 +55,16 @@ namespace SurveyApp.Infrastructure.Migrations
                     b.Property<int?>("QuestionId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("VoteId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("PollId");
 
                     b.HasIndex("QuestionId");
+
+                    b.HasIndex("VoteId");
 
                     b.ToTable("Options");
                 });
@@ -58,9 +78,6 @@ namespace SurveyApp.Infrastructure.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Content")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Token")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("UserId")
@@ -88,15 +105,20 @@ namespace SurveyApp.Infrastructure.Migrations
                     b.Property<int>("PollId")
                         .HasColumnType("int");
 
-                    b.Property<int>("QuestionTypes")
+                    b.Property<int?>("QuestionTypes")
                         .HasColumnType("int");
 
-                    b.Property<int>("VoteTypes")
+                    b.Property<int?>("VoteId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("VoteTypes")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("PollId");
+
+                    b.HasIndex("VoteId");
 
                     b.ToTable("Questions");
                 });
@@ -145,24 +167,30 @@ namespace SurveyApp.Infrastructure.Migrations
                     b.Property<bool>("IsSelected")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("OptionId")
+                    b.Property<int?>("QuestionTypes")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PollId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("QuestionId")
+                    b.Property<int?>("VoteTypes")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OptionId");
-
-                    b.HasIndex("PollId");
-
-                    b.HasIndex("QuestionId");
-
                     b.ToTable("Votes");
+                });
+
+            modelBuilder.Entity("PollVote", b =>
+                {
+                    b.HasOne("SurveyApp.Entities.Poll", null)
+                        .WithMany()
+                        .HasForeignKey("PollsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SurveyApp.Entities.Vote", null)
+                        .WithMany()
+                        .HasForeignKey("VotesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SurveyApp.Entities.Option", b =>
@@ -175,9 +203,15 @@ namespace SurveyApp.Infrastructure.Migrations
                         .WithMany("Options")
                         .HasForeignKey("QuestionId");
 
+                    b.HasOne("SurveyApp.Entities.Vote", "Vote")
+                        .WithMany()
+                        .HasForeignKey("VoteId");
+
                     b.Navigation("Poll");
 
                     b.Navigation("Question");
+
+                    b.Navigation("Vote");
                 });
 
             modelBuilder.Entity("SurveyApp.Entities.Poll", b =>
@@ -197,33 +231,13 @@ namespace SurveyApp.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Poll");
-                });
-
-            modelBuilder.Entity("SurveyApp.Entities.Vote", b =>
-                {
-                    b.HasOne("SurveyApp.Entities.Option", "Option")
-                        .WithMany("Votes")
-                        .HasForeignKey("OptionId");
-
-                    b.HasOne("SurveyApp.Entities.Poll", "Poll")
-                        .WithMany()
-                        .HasForeignKey("PollId");
-
-                    b.HasOne("SurveyApp.Entities.Question", "Question")
-                        .WithMany()
-                        .HasForeignKey("QuestionId");
-
-                    b.Navigation("Option");
+                    b.HasOne("SurveyApp.Entities.Vote", "Vote")
+                        .WithMany("Questions")
+                        .HasForeignKey("VoteId");
 
                     b.Navigation("Poll");
 
-                    b.Navigation("Question");
-                });
-
-            modelBuilder.Entity("SurveyApp.Entities.Option", b =>
-                {
-                    b.Navigation("Votes");
+                    b.Navigation("Vote");
                 });
 
             modelBuilder.Entity("SurveyApp.Entities.Poll", b =>
@@ -234,6 +248,11 @@ namespace SurveyApp.Infrastructure.Migrations
             modelBuilder.Entity("SurveyApp.Entities.Question", b =>
                 {
                     b.Navigation("Options");
+                });
+
+            modelBuilder.Entity("SurveyApp.Entities.Vote", b =>
+                {
+                    b.Navigation("Questions");
                 });
 #pragma warning restore 612, 618
         }

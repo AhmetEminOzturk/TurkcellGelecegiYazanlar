@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SurveyApp.Dto.Requests;
 using SurveyApp.Dto.Responses;
+using SurveyApp.Entities;
 using SurveyApp.Services;
 
 namespace SurveyApp.MVC.Controllers
@@ -19,6 +21,7 @@ namespace SurveyApp.MVC.Controllers
             return View(polls);
         }
 
+        [HttpGet]
         public async Task<IActionResult> GetPollById(int id)
         {
             var poll = await _pollService.GetPollByIdWithQuestionsAndOptionsAsync(id);
@@ -27,8 +30,10 @@ namespace SurveyApp.MVC.Controllers
             {
                 return NotFound();
             }
-
+          
             return View(new List<PollDisplayResponse> { poll });
+            
         }
+     
     }
 }

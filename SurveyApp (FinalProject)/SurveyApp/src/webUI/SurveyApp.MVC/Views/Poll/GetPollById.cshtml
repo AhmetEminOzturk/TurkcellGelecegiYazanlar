@@ -1,6 +1,67 @@
-﻿@model IEnumerable<PollDisplayResponse>
+﻿ @model IEnumerable<PollDisplayResponse>
 
-@foreach (var pollModel in Model)
+<form method="post">
+
+    @foreach (var pollModel in Model)
+    {
+        <div class="container">
+            <h2>Poll Content: @pollModel.Content</h2>
+            <br />
+            <br />
+            @foreach (var questionModel in pollModel.Questions)
+            {
+                <h3>Question @questionModel.Id</h3>
+
+                @if (questionModel.QuestionTypes == QuestionType.SingleLine)
+                {
+                    <div class="answer-container">
+                        <textarea name="question-@questionModel.Id" asp-for="@questionModel.Content" rows="1" maxlength="100" class="single-line"></textarea>
+                    </div>
+                }
+                else if (questionModel.QuestionTypes == QuestionType.MultiLine)
+                {
+                    <div class="answer-container">
+                        <textarea name="question-@questionModel.Id" asp-for="@questionModel.Content" rows="2" maxlength="250" class="multi-line"></textarea>
+                    </div>
+                }
+                <br />
+                <br />
+
+                <p>Options:</p>
+                <div class="options-container">
+                    @foreach (var optionModel in questionModel.Options)
+                    {
+                        <div class="option-item">
+                            @if (questionModel.VoteTypes == VoteType.SingleChoice)
+                            {
+                                <input type="radio" name="question-@questionModel.Id" value="@optionModel.Id">
+                                <label>@optionModel.Content</label>
+                            }
+                            else if (questionModel.VoteTypes == VoteType.MultipleChoice)
+                            {
+                                <input type="checkbox" name="question-@questionModel.Id" value="@optionModel.Id">
+                                <label>@optionModel.Content</label>
+                            }
+                            else if (questionModel.VoteTypes == VoteType.Rating)
+                            {
+                                <label for="rating-@questionModel.Id-@optionModel.Id">@optionModel.Content</label>
+                                <input type="number" id="rating-@questionModel.Id-@optionModel.Id" name="question-@questionModel.Id" min="1" max="5">
+                            }
+                        </div>
+                    }
+                </div>
+                <br />
+                <br />
+            }
+        </div>
+    }
+    }
+
+    <button class="btn btn-primary" type="submit">Anketi Kaydet</button>
+</form>
+
+
+@*@foreach (var pollModel in Model)
 {
     <div class="container">
         <h2>Poll Content: @pollModel.Content</h2>
@@ -54,13 +115,52 @@
     </div>
 }
 
+
 <button onclick="submitVotes()">Anketi Kaydet</button>
 
 <script>
-    function submitVotes() {
-        // İşlemler devam ediyor...
+    async function submitVotes() {
+        var votes = [];
+
+        // Tüm cevapları döngüyle gezip verileri votes listesine ekleyin
+        // Örneğin:
+        var questions = document.getElementsByClassName('question-container');
+
+        for (var i = 0; i < questions.length; i++) {
+            var questionElement = questions[i];
+            var questionId = questionElement.getAttribute('data-question-id');
+
+            var selectedOptions = questionElement.querySelectorAll('input:checked');
+            var textAreas = questionElement.querySelectorAll('textarea');
+
+            var questionVotes = {
+                questionId: questionId,
+                options: [],
+                textAnswers: []
+            };
+
+            selectedOptions.forEach(function (option) {
+                questionVotes.options.push(option.value);
+            });
+
+            textAreas.forEach(function (textArea) {
+                questionVotes.textAnswers.push(textArea.value);
+            });
+
+            votes.push(questionVotes);
+        }
+
+        // Örnek bir AJAX isteği gönderme (Axios kütüphanesi kullanılarak)
+        try {
+            const response = await axios.post('/Poll/SaveVotes', { votes: votes });
+            console.log(response.data); // İşlem başarılı olduğunda yapılacaklar
+        } catch (error) {
+            console.error(error); // İşlem başarısız olduğunda yapılacaklar
+        }
     }
-</script>
+
+
+</script>*@
 
 <style>
     .container {
@@ -101,3 +201,6 @@
         gap: 10px;
     }
 </style>
+
+@*<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+*@

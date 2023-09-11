@@ -21,6 +21,7 @@ namespace SurveyApp.Entities
 
         public string Content { get; set; }
         public bool IsSelected { get; set; }
+        
 
     }
 }   

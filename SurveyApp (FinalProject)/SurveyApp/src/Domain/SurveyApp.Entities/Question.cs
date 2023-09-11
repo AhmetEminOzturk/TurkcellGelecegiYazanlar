@@ -16,5 +16,6 @@ namespace SurveyApp.Entities
         public ICollection<Option?> Options { get; set; }
         public QuestionType? QuestionTypes { get; set; }
         public VoteType? VoteTypes { get; set; }
+
     }
 }

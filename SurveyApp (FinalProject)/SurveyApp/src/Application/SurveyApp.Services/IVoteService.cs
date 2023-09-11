@@ -1,4 +1,6 @@
 ﻿using SurveyApp.Dto.Requests;
+using SurveyApp.Dto.Responses;
+using SurveyApp.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,5 @@ namespace SurveyApp.Services
 {
     public interface IVoteService
     {
-        Task CreateVoteAsync(CreateNewVoteRequest createNewVoteRequest);
     }
 }

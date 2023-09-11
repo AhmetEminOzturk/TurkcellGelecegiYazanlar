@@ -14,9 +14,7 @@ namespace SurveyApp.Entities
 
         public int? QuestionId { get; set; }
         public Question? Question { get; set; }
-
         public ICollection<Vote?> Votes { get; set; }
-
         public int? PollId { get; set; }
         public Poll? Poll { get; set; }
     }

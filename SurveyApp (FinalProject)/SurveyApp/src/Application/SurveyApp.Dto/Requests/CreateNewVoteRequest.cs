@@ -9,14 +9,12 @@ namespace SurveyApp.Dto.Requests
 {
     public class CreateNewVoteRequest
     {
-        public int Id { get; set; }
 
         public int? PollId { get; set; }
         public Poll? Poll { get; set; }
 
         public int? OptionId { get; set; }
         public Option? Option { get; set; }
-
         public int? QuestionId { get; set; }
         public Question? Question { get; set; }
 

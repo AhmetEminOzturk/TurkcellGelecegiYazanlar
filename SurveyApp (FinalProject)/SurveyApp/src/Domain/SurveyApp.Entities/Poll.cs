@@ -14,8 +14,8 @@ namespace SurveyApp.Entities
         public string? Content { get; set; }
         public User? User { get; set; }
         public int? UserId { get; set; }
-        public string? Token { get; set; }
         public ICollection<Question?> Questions { get; set; }
+        public ICollection<Vote?> Votes { get; set; }
 
     }
 }
